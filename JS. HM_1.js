@@ -209,3 +209,4 @@ const checkAge3 = function (age) {
         } 
         }
     
+checkAge4()
