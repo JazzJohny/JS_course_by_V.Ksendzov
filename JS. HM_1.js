@@ -197,7 +197,7 @@ const checkAge3 = function (age) {
         let age_1_type = typeof(age_1_number)
     
         if (age_1_type != "number" || age_1_boolean == false) {
-            alert("Err: Not a number")
+            alert("Err: Not valid data")
         } else if (age_1 < age_2) {
              alert(`You don’t have access cause your age is ` + age_1 + `. It’s less than 18.`)
         } else if(age_1 >= age_2 && age_1 < age_3) {
