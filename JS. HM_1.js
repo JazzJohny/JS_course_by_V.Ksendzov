@@ -116,11 +116,11 @@ const checkAge = function (age) {
     let age_3 = 60
 
     if (age_1 < age_2) {
-         return(`You don’t have access cause your age is ` + age_1 + `. It’s less than ${age_2}.`)
+        return(`You don’t have access cause your age is ` + age_1 + `. It’s less than ${age_2}.`)
     } else if(age_1 >= age_2 && age_1 < age_3) {
-         return("Welcome!")
+        return("Welcome!")
     } else if(age_1 > age_3) {
-     return("Keep calm and look Culture channel")
+        return("Keep calm and look Culture channel")
     } else {
         return("Technical work")
     } 
@@ -142,11 +142,11 @@ const checkAge2 = function (age) {
     if (age_1_type != "number") {
         return ("Err: Not a number")
     } else if (age_1 < age_2) {
-         return(`You don’t have access cause your age is ` + age_1 + `. It’s less than 18.`)
+        return(`You don’t have access cause your age is ` + age_1 + `. It’s less than 18.`)
     } else if(age_1 >= age_2 && age_1 < age_3) {
-         return("Welcome!")
+        return("Welcome!")
     } else if(age_1 > age_3) {
-     return("Keep calm and look Culture channel")
+        return("Keep calm and look Culture channel")
     } else {
         return("Technical work")
     } 
@@ -170,11 +170,11 @@ const checkAge3 = function (age) {
     if (age_1_type != "number" || age_1_boolean == false) {
         return ("Err: Not a number")
     } else if (age_1 < age_2) {
-         return(`You don’t have access cause your age is ` + age_1 + `. It’s less than 18.`)
+        return(`You don’t have access cause your age is ` + age_1 + `. It’s less than 18.`)
     } else if(age_1 >= age_2 && age_1 < age_3) {
-         return("Welcome!")
+        return("Welcome!")
     } else if(age_1 > age_3) {
-     return("Keep calm and look Culture channel")
+        return("Keep calm and look Culture channel")
     } else {
         return("Technical work")
     } 
@@ -197,13 +197,13 @@ const checkAge3 = function (age) {
         let age_1_type = typeof(age_1_number)
     
         if (age_1_type != "number" || age_1_boolean == false) {
-            alert("Err: Not a number")
+            alert("Err: Not valid data")
         } else if (age_1 < age_2) {
-             alert(`You don’t have access cause your age is ` + age_1 + `. It’s less than 18.`)
+            alert(`You don’t have access cause your age is ` + age_1 + `. It’s less than 18.`)
         } else if(age_1 >= age_2 && age_1 < age_3) {
-             alert("Welcome!")
+            alert("Welcome!")
         } else if(age_1 > age_3) {
-         alert("Keep calm and look Culture channel")
+            alert("Keep calm and look Culture channel")
         } else {
             alert("Technical work")
         } 
